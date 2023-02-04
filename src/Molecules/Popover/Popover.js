@@ -48,7 +48,7 @@ const PopoverFunc = () => {
               className={style.PopoverOptions}
               sx={{ p: 2 }}
               onClick={() => {
-                setLoginStatus(true);
+                setLoginStatus(false);
                 Nav("/");
               }}
             >

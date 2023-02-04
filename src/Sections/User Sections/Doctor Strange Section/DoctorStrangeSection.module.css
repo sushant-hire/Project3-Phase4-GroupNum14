@@ -32,7 +32,16 @@
   padding-top: 11.1rem;
   padding-right: 24rem;
   color: #cfd9e0;
+  
 }
+
+.ProfileImage {
+  position: relative;
+  right: 13.5rem;
+  bottom: 76rem;
+}
+
+
 .ProfileDetailsContainer {
   border: 0.2px solid #cfd9e0;
   text-align: left;

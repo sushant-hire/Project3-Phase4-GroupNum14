@@ -39,19 +39,21 @@ const trendinsData = [
     isNotInterested: false,
     id: 5,
   },
-];
+]
+
 
 const RightHomeTrendingBox = () => {
-  const [trending, setTrendings] = useState(trendinsData.slice(0, 2));
-  const [isShowingAllTrendings, setIsShowingAllTrendings] = useState(false);
+  const [trending , setTrendings] = useState(trendinsData.slice(0,2))
+  const [isShowingAllTrendings , setIsShowingAllTrendings] = useState(false)
 
-  function handleRequestSeeAll() {
-    setIsShowingAllTrendings(!isShowingAllTrendings);
-    if (isShowingAllTrendings) {
-      return setTrendings(trendinsData.slice(0, 2));
+  function handleRequestSeeAll () {
+    setIsShowingAllTrendings(!isShowingAllTrendings)
+    if(isShowingAllTrendings) {
+       return setTrendings(trendinsData.slice(0,2))
     }
-    setTrendings(trendinsData);
-  }
+    setTrendings(trendinsData)
+}
+
 
   function updateIsNotInterested(id, value) {
     const updatedData = trending.map((data) => {
@@ -85,12 +87,7 @@ const RightHomeTrendingBox = () => {
             </button>
           )
       )}
-      <p
-        className={styles.TrendingBoxShowMoreContainer}
-        onClick={handleRequestSeeAll}
-      >
-        {isShowingAllTrendings ? "Show Less" : "Show More"}{" "}
-      </p>
+      <p className={styles.TrendingBoxShowMoreContainer} onClick = {handleRequestSeeAll}  >{isShowingAllTrendings ? 'Show Less' : 'Show More'} </p>
     </div>
   );
 };

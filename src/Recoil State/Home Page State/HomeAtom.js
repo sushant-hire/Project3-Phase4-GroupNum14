@@ -1,10 +1,11 @@
 import { atom } from "recoil";
+import { Link } from "react-router-dom";
 
 export const homeAtom = atom({
   key: "home",
   default: [
     {
-      id: 1,
+      id: "1",
       photo1: (
         <img
           style={{ width: "3.5rem", height: "3.5rem", borderRadius: "5px" }}
@@ -66,7 +67,7 @@ export const homeAtom = atom({
       ],
     },
     {
-      id: 2,
+      id: "2",
       photo1: (
         <img
           style={{ width: "3.5rem", height: "3.5rem", borderRadius: "5px" }}
@@ -128,7 +129,7 @@ export const homeAtom = atom({
       ],
     },
     {
-      id: 3,
+      id: "3",
 
       photo1: (
         <img
@@ -191,7 +192,7 @@ export const homeAtom = atom({
       ],
     },
     {
-      id: 4,
+      id: "4",
 
       photo1: (
         <img
@@ -254,7 +255,7 @@ export const homeAtom = atom({
       ],
     },
     {
-      id: 5,
+      id: "5",
 
       photo1: (
         <img
@@ -275,7 +276,7 @@ export const homeAtom = atom({
       title3: "Trust me, I didn't do anything.",
     },
     {
-      id: 6,
+      id: "6",
 
       photo1: (
         <img
@@ -296,7 +297,7 @@ export const homeAtom = atom({
       title3: "I choose to run towards my problems and not away.",
     },
     {
-      id: 7,
+      id: "7",
 
       photo1: (
         <img
@@ -317,7 +318,7 @@ export const homeAtom = atom({
       title3: "Sometimes, you've gotta run before you can walk.",
     },
     {
-      id: 8,
+      id: "8",
 
       photo1: (
         <img
@@ -338,7 +339,7 @@ export const homeAtom = atom({
       title3: "I knocked out Adolf Hitler over 200 times.",
     },
     {
-      id: 9,
+      id: "9",
 
       photo1: (
         <img
@@ -359,7 +360,7 @@ export const homeAtom = atom({
       title3: "You should know, I'm a better shot when I'm pissed off.",
     },
     {
-      id: 10,
+      id: "10",
 
       photo1: (
         <img
