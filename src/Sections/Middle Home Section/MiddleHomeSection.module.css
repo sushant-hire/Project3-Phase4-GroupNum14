@@ -1,0 +1,11 @@
+.MiddleParentContainer {
+  display: grid;
+  grid-template-rows: 0.2fr 10fr;
+  padding-right: 2rem;
+}
+
+/* .MiddleParentContainer {
+    display: grid;
+    grid-template-rows: 0.2fr 0.67fr 10fr;
+    padding-right: 2rem;
+} */

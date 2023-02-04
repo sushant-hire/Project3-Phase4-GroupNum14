@@ -1,0 +1,139 @@
+.dialogContainer {
+  font-family: "Poppins", sans-serif;
+}
+
+.dialogHeading {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: -25px;
+}
+.newDialogHeading {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: 25px;
+}
+
+.para {
+  width: 50%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 5px 0 5px;
+}
+
+.paraSpan {
+  background: #fff;
+  padding: 0 10px;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+}
+
+.dialogContentContainer {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 39vw;
+  height: 80vh;
+  position: relative;
+  bottom: 55px;
+}
+
+.newDialogContentContainer {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 39vw;
+  height: 80vh;
+  position: relative;
+  bottom: 55px;
+  text-align: center;
+}
+
+.buttonStyleGoogle {
+  border: 1px solid gray;
+  background-color: white;
+  font-size: medium;
+  width: 20vw;
+  height: 5vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.buttonStyleGoogle:hover {
+  background-color: gainsboro;
+}
+
+.buttonStyleApple {
+  border: 1px solid gray;
+  background-color: white;
+  font-weight: bolder;
+  font-size: medium;
+  width: 20vw;
+  height: 5vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.buttonStyleApple:hover {
+  background-color: gainsboro;
+}
+
+.buttonStyleNext {
+  color: white;
+  background-color: black;
+  font-size: medium;
+  width: 20vw;
+  height: 5vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.buttonStyleNext:hover {
+  background-color: rgba(0, 0, 0, 0.858);
+}
+
+.buttonStyleLogin {
+  color: white;
+  background-color: black;
+  font-size: medium;
+  width: 19.8vw;
+  height: 7vh;
+  border-radius: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.buttonStyleLogin:hover {
+  background-color: rgba(0, 0, 0, 0.858);
+}
+
+.FooterRouter {
+  text-decoration: none;
+  color: #00acee;
+}
+
+.FooterRouter:hover {
+  text-decoration: underline;
+  text-decoration-color: #00acee;
+}

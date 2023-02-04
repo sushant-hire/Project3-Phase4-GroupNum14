@@ -1,0 +1,11 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.MainPublicPageContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  text-align: center;
+  padding: 0 8.4rem;
+}
